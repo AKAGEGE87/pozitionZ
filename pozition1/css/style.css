@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mtavari {
+  background-color: aquamarine;
+  width: 1280px;
+  height: 1000px;
+  padding: 70px 125px;
+}
+
+.box {
+  width: 1030px;
+  height: 864px;
+  display: flex;
+  position: relative;
+  /* padding: 50px; */
+  background-color: bisque;
+}
+img {
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  position: absolute;
+}
+
+.box1 .img2,
+.box2 .img2,
+.box3 .img2,
+.box4 .img2 {
+  top: 221px;
+}
+
+.box1 .img3,
+.box2 .img3,
+.box3 .img3,
+.box4 .img3 {
+  top: 442px;
+}
+
+.box1 .img4,
+.box2 .img4,
+.box3 .img4,
+.box4 .img4 {
+  top: 663px;
+}
+
+.box2 .img1,
+.box2 .img2,
+.box2 .img3,
+.box2 .img4 {
+  left: 260px;
+}
+
+.box3 .img1,
+.box3 .img2,
+.box3 .img3,
+.box3 .img4 {
+  left: 520px;
+}
+
+.box4 .img1,
+.box4 .img2,
+.box4 .img3,
+.box4 .img4 {
+  left: 780px;
+}

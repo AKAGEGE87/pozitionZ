@@ -1,0 +1,77 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.mtavari {
+  display: flex;
+  position: relative;
+}
+/* .box,
+.box1{
+    position: absolute;
+} */
+img {
+  position: absolute;
+}
+.box img {
+  width: 300px;
+  height: 200px;
+}
+
+.box1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.box {
+  margin-left: 53px;
+  margin-top: 33px;
+  position: relative;
+}
+.box1 {
+  position: relative;
+  margin-left: 101px;
+  margin-top: 600px;
+}
+
+.box .imggirl {
+  top: 88px;
+  left: 192px;
+  z-index: 1;
+}
+
+.box .imgbus {
+  top: 200px;
+  left: 380px;
+  z-index: 2;
+}
+.box .imgsea {
+  top: 298px;
+  left: 585px;
+  z-index: 1;
+}
+
+.box1 .imggirl {
+  left: 100px;
+  z-index: 1;
+}
+
+.box1 .imgbus {
+  left: 200px;
+  z-index: 2;
+}
+
+.box1 .imgsea {
+  left: 300px;
+  z-index: 3;
+}
